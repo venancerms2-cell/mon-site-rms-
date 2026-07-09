@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS - Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        nav {
+            background-color: #2c3e50;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #27ae60;
+        }
+        h1 {
+            color: #0d47a1;
+            font-size: 2.5em;
+        }
+        h1 span {
+            color: #e74c3c;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        form {
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 1em;
+        }
+        .btn {
+            background-color: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .btn:hover {
+            background-color: #1e8449;
+        }
+        .tagline {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 30px;
+        }
+        .info {
+            text-align: left;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f0f8ff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">🏠 Accueil</a>
+        <a href="sante.html">💚 Santé</a>
+        <a href="culture.html">🎭 Culture</a>
+        <a href="a-propos.html">📖 À propos</a>
+        <a href="contact.html">📧 Contact</a>
+    </nav>
+
+    <section>
+        <h1>📧 <span>Contactez</span> nous</h1>
+        <p>Une question, une suggestion ? Écrivez-nous !</p>
+        <form>
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" placeholder="Entrez votre nom">
+            <label for="email">Votre email :</label>
+            <input type="email" id="email" placeholder="Entrez votre email">
+            <label for="message">Votre message :</label>
+            <textarea id="message" rows="5" placeholder="Écrivez votre message ici..."></textarea>
+            <button type="button" class="btn" onclick="alert('Message envoyé ! Nous vous répondrons bientôt. 📩')">Envoyer</button>
+        </form>
+        <div class="info">
+            <p><strong>📞 Téléphone :</strong> +243 XX XX XX XX</p>
+            <p><strong>📧 Email :</strong> contact@rms-sante-culture.com</p>
+            <p><strong>📍 Adresse :</strong> Kinshasa, RDC</p>
+        </div>
+        <p class="tagline">- RMS Santé et culture -</p>
+    </section>
+</body>
+</html>
